@@ -6,6 +6,8 @@
   background-color: var(--neutral-900);
   padding: var(--spacing-xm);
   border-radius: 1rem;
+
+  max-width: 21.875rem;
 }
 
 .nft-card__wrapper {
