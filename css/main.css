@@ -9,14 +9,15 @@
 
   /* spacing */
   --spacing-sm: 1rem; /* 16px */
-  --spacing-sm: 1.25rem; /* 20px */
-  --spacing-sm: 1.5rem; /* 24px */
-  --spacing-sm: 1.75rem; /* 28px */
-  --spacing-sm: 2rem; /* 32px */
+  --spacing-m: 1.25rem; /* 20px */
+  --spacing-xm: 1.5rem; /* 24px */
+  --spacing-l: 1.75rem; /* 28px */
+  --spacing-xl: 2rem; /* 32px */
 
   /* fonts */
   --font-s-sb: normal 600 1rem "Outfit", sans-serif;
   --font-s: normal 400 1rem "Outfit", sans-serif;
+  --font-s-l: normal 300 1rem "Outfit", sans-serif;
   --font-m-l: normal 300 1.125rem "Outfit", sans-serif;
   --font-lg-sb: normal 600 1.375rem "Outfit", sans-serif;
 }
