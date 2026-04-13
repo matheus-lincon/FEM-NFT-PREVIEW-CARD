@@ -1,0 +1,57 @@
+:root {
+  /* colors */
+  --primary-400: hsl(178, 100%, 50%);
+  --primary-500: hsl(215, 51%, 70%);
+  --neutral-800: hsl(215, 32%, 27%);
+  --neutral-900: hsl(216, 50%, 16%);
+  --neutral-950: hsl(217, 54%, 11%);
+  --white: hsl(0, 0%, 100%);
+
+  /* spacing */
+  --spacing-sm: 1rem; /* 16px */
+  --spacing-sm: 1.25rem; /* 20px */
+  --spacing-sm: 1.5rem; /* 24px */
+  --spacing-sm: 1.75rem; /* 28px */
+  --spacing-sm: 2rem; /* 32px */
+
+  /* fonts */
+  --font-s-sb: normal 600 1rem "Outfit", sans-serif;
+  --font-s: normal 400 1rem "Outfit", sans-serif;
+  --font-m-l: normal 300 1.125rem "Outfit", sans-serif;
+  --font-lg-sb: normal 600 1.375rem "Outfit", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/Outfit-VariableFont_wght.ttf");
+  font-style: normal;
+  font-weight: 300 400 600;
+  font-display: swap;
+}
+
+svg,
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+svg {
+  fill: currentColor;
+}
+
+body {
+  background-color: var(--neutral-950);
+  color: var(--white);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
