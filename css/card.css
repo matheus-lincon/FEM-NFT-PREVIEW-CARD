@@ -23,6 +23,10 @@
   font: var(--font-lg-sb);
 }
 
+.nft-card__title:hover {
+  color: var(--primary-400);
+}
+
 .nft-card__desc {
   font: var(--font-m-l);
   color: var(--primary-500);
@@ -78,4 +82,8 @@
 .author__info a {
   color: var(--white);
   font: var(--font-s);
+}
+
+.author__info a:hover {
+  color: var(--primary-400);
 }
