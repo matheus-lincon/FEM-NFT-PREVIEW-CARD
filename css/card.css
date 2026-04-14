@@ -75,7 +75,7 @@
   font: var(--font-s-l);
 }
 
-.author__info span {
+.author__info a {
   color: var(--white);
   font: var(--font-s);
 }
