@@ -7,6 +7,8 @@
   --neutral-950: hsl(217, 54%, 11%);
   --white: hsl(0, 0%, 100%);
 
+  --primary-400-hsl: 178, 100%, 50%;
+
   /* spacing */
   --spacing-sm: 1rem; /* 16px */
   --spacing-m: 1.25rem; /* 20px */
