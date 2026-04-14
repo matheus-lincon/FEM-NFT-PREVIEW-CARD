@@ -49,6 +49,11 @@ svg {
   fill: currentColor;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background-color: var(--neutral-950);
   color: var(--white);
